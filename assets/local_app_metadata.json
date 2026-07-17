@@ -1,0 +1,122 @@
+{
+    "upsrlm": {
+        "title": "Vidyut Sakhi \u2013 Apps on Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.avenues.upsrlm&hl=en_IN",
+        "icon_url": "https://play-lh.googleusercontent.com/kE0yhBX4OOtNYopakNnAiVXzBvVHYuH7fOT0Dk187nAETkwAIDrbxF-OG2SsjZ-K7XqJKWpWvBfpnI9f3DvKzg",
+        "screenshots": [
+            "https://play-lh.googleusercontent.com/I-Cu4zc-Dp83jcJExWZOC_QsF2NUX7Mu0RuV_G5udWTZYLg9CN6CMbezOPoIHX4LhTfy-YAQQcnONidPUt6Yjw=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/MaHOn-RHsO2MuhYFCPqplSDkT0PBTSZ2Cje1xfClAGbE3BDLULpzF3iLV6kTkHfUBlCu8R4U3Nkoqx66PHuwMg=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/TkKclYhxUJVa-nFNkNIbNWtnvrYKX89C91iRieK_U94TQbpbLcks0HKYqIjzoJjY2bf6XjGnLwmboEqGktpqWA=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/ysrJBVNZEIplOB1x-PInE5LYvUpfJ4rOPUm5lR7SECQgY9-xx0XiQBQ2_Ah_oAZ_h4JCeI4xwTQ1KGrydvm8sNk=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/PIF-3NdpWIdovJXI5I-O3ggaEDcLYD46tsEw54truAcSFnb-m2nGBgqeYA7ldLAiLPjRHHs7v9ELXnVROS_ELQ=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/-x5vesgFQ6Q2orFMuYzWg2klRsgIBL2Sm5RSnXddz1td8RjiXb_nqXe-vZ8uzirRYnY-NZm5Ztcgc2zfXqVH06c=w720-h1280-rw"
+        ],
+        "description": "",
+        "local_screenshots": [
+            "assets/screenshots/upsrlm_ss1.png",
+            "assets/screenshots/upsrlm_ss2.png",
+            "assets/screenshots/upsrlm_ss3.png"
+        ],
+        "local_icon": "assets/icons/upsrlm_icon.png"
+    },
+    "millat": {
+        "title": "MillatApp \u2013 Apps on Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.ummat.millatapp&hl=en_IN",
+        "icon_url": "https://play-lh.googleusercontent.com/kCT-g1iP3gR1Tnne8tb7Kd-lAKalI-YbVvwVKK4qI-TwPO4gYmpbSZ25C1ENV2yv-TcFHburDEEb36vnAfaQbA",
+        "screenshots": [
+            "https://play-lh.googleusercontent.com/KJx30Jtju3KOHWAp5euIy4hDe_SBCS2iSJP8__Vh4alF9WTT-6H4bkCMsA6QFM_6qQZG0_8OXW4GOJrx_Tn9EU8=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/7mrEDPIeMI-27PQCmxE_lgJ7aHy1VgIHP0kklQ2TozMZY_iN8Q-mXRQxmfWrmi6tWYe6Z9gY1u7a9yBIP8WXqvQ=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/JHEjKszatfcl1UmR-6KPMOvWqRvgzL4LwzYEuXHgx3ZzaMVDy3UFn1aVVzXJHQ5oqCdxQOPDSRGxJMR6_k2L1A=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/PEqsU1HtpOiuCBz_Wz8ur2ly5c5oOShaMvdnjeCRTlKe95Avcv-_BAgzJc9IEiBSIfVDYJgwBKnVa-Xv4ncW=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/b57m5UJz_tiotefxlDiqvnhSIgbi0x1xxIDaCBbRelVp6PnW_OVA6fMTG-PuL1GFe9ERrT3lVjQ_Jvvekrl1Ww=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/1xvVxidtRdFIJpR1f6CknA9LoEFsy7E6IFtDbNzvi10coYBKNMBPbeXKFJbET7mwzZ2vtRok4yVpqukUA9czIw=w720-h1280-rw"
+        ],
+        "description": "",
+        "local_screenshots": [
+            "assets/screenshots/millat_ss1.png",
+            "assets/screenshots/millat_ss2.png",
+            "assets/screenshots/millat_ss3.png"
+        ],
+        "local_icon": "assets/icons/millat_icon.png"
+    },
+    "decyde_shop": {
+        "title": "Decyde.Shop \u2013 Apps on Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.VGT.decyde.shop&hl=en_IN",
+        "icon_url": "https://play-lh.googleusercontent.com/YGX0wSMBJ_mx4ctlmYvR5ZBMNXWBOeppUL4g2S8Rg66fQK3UPrnb7Jf4YPfm-eA_Fcw6Dle_qdNkr5868Nnp8w",
+        "screenshots": [
+            "https://play-lh.googleusercontent.com/rgtkVodxYY6glPwbMpmQkkkcJ4TPwGMUCyunPzHxqeon5lonyVHsh8bVTjpWdHai6RzPaj2i_ND4WGNf_7OqVgg=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/0xHjWMWCZLdKRjJ6vUvo7bITOMpvFOsM6nH3HmUkgiUIDrAb-Lv-55X-syGOph3d2v4TbzrdycymV75gucD4ZP4=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/uFkS9XN4ssh7TmN1G3LAT7Rh8YfzMaIoN2Aa96KqXPQEPr0PKw6VPw9JhHTUvQmptiBri-1RJxg5xvKUCesrEaQ=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/YMLBdDIxoLeeXlvhBEhCyu97-uPFWIo6y2M4CXV-DtG75rG94dFdZrCPGggWOrHYkh2NBlwER0NhRmN0yW-w=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/rt6-6aZ_NpCA75Z78Dme54prUkriL4wEejWK5WzRBqH7oWYNm2EqeyqJYSiUyNUSzAqvMWyUO7ZNlTYh6AlZbQ=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/nIrPxOeJH0-QjclgVz6HsqR_oi1U1B2TrBOXFW8hoU-wgVai3E7gd9r6tD2T3tRHRVJhjXKrvicewYc5mUesnA=w720-h1280-rw"
+        ],
+        "description": "",
+        "local_screenshots": [
+            "assets/screenshots/decyde_shop_ss1.png",
+            "assets/screenshots/decyde_shop_ss2.png",
+            "assets/screenshots/decyde_shop_ss3.png"
+        ],
+        "local_icon": "assets/icons/decyde_shop_icon.png"
+    },
+    "decyde_vendor": {
+        "title": "Decyde.Shop Seller \u2013 Apps on Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.VGT.decyde.vendor&hl=en_IN",
+        "icon_url": "https://play-lh.googleusercontent.com/f4Cj0myvAP9IpuSZggWvYslSwV9kg4Ys8pTD8zjC97OWzQADXvMPHxMkM9zd7Phm_QcLoa96_oFqVKCALOeXNzI",
+        "screenshots": [
+            "https://play-lh.googleusercontent.com/xn0CtRT3dppd7guDTqMG8SygPleEWpIIPrIPXmdoN2WVBXvIRbm99ay7leHXOurhjeuPLE0ZqASUrV-EwPZczw=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/KI7kqqYNGPpPdOrDp0MY-UAUMulkxlheHbOXSqyt2YrEwxkK5FlnhP_cXW5t7fZn9sMOiNSPb9oP4pfMfVOX4w=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/er212zAX1aNgFzgu_f02NpuQJA9dSA-aEMXZskEi5xjRS3576JUt_7HO-OHRs0Omh5ee_wKma_dQVAnBxlbJ_SE=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/dUAKJhgCHXNCrsqaOwbeuf8Pbh9WqemjrHOUxAXAmBftxcMy9q5yohrnJiERw5UOePMOPYVBD9kLz4-NDaGw=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/1Qf78C2DZ8y745w-hHqjT8jZuGYTdaEdZXGqBFdrTdXgNUJjK87slKgQygz-aRakL1ftf6lLnAzWj6Y0mxyPoQ=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/mT94q00sT4-HxfTyVnmVJrKiCFUQ8a4rYWsxPFiHJpDvITEIDNTJslqmaioojUmer5TH_bI9fFYK_n7PTnr6=w720-h1280-rw"
+        ],
+        "description": "",
+        "local_screenshots": [
+            "assets/screenshots/decyde_vendor_ss1.png",
+            "assets/screenshots/decyde_vendor_ss2.png",
+            "assets/screenshots/decyde_vendor_ss3.png"
+        ],
+        "local_icon": "assets/icons/decyde_vendor_icon.png"
+    },
+    "resthouse_allottee": {
+        "title": "Maha PWD Resthouse Allottee \u2013 Apps on Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.emahapwd.resthouse_allottee&hl=en_IN",
+        "icon_url": "https://play-lh.googleusercontent.com/x0CJTRf8Beh3xPhfXP238pNYQAdMrtx5WLOL-7F7_casikCxEt0TLEa5MuV3_x4jPOfIMV2w0XBWPk-6NIUGat8",
+        "screenshots": [
+            "https://play-lh.googleusercontent.com/3V6CeTRTZlumWoPhNbgimIoH9MBTJZB9PiMicmsZzeVLF5IC3-mJZjXp2-ta0tGdaymBxbTUy5lMl2SUDha4=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/eW-88PlHdxVROdVN2FtiNMdYtSUhqNOdmYezQiJeedJf-KM1-_bmwBsiut4HuZdXLuXfeLTufmP8hG_tIaoR9Io=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/6d_3vODRbrDm4KAGIhAjltrLUIgkrB_p2MaUELVQzNXjUn30EVrHeU86Y9C1-kwOKsctwNic4OtKhrREA7Il5w=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/qEbNMwav-GcXqeKSYiSFOTYGfDD0VjOmSSck4KVOH6BWgKRQ6RjlBuS_Ix3CL5Sdq3mb3AnuDyprT4mdApDwZOY=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/0jz8gfXtbd5x-zfLaGsWvPY1dnkHftHvOHTUE2zt7bk9jujnaX__olEE9ZouV3Ba3CEQfsHKHuVUf6k7_fKSDw=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/xMPphchXSuj_CUTKR1_lbGFdCx8yF5ORSWGChp5po18MThYfxZ1dStM3O0-liznAivBLb4Q1s10jm8ekqDFwXXQ=w720-h1280-rw"
+        ],
+        "description": "",
+        "local_screenshots": [
+            "assets/screenshots/resthouse_allottee_ss1.png",
+            "assets/screenshots/resthouse_allottee_ss2.png",
+            "assets/screenshots/resthouse_allottee_ss3.png"
+        ],
+        "local_icon": "assets/icons/resthouse_allottee_icon.png"
+    },
+    "resthouse_user": {
+        "title": "Maha PWD Resthouse \u2013 Apps on Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.emahapwd.resthouse_user&hl=en_IN",
+        "icon_url": "https://play-lh.googleusercontent.com/RLMQI5Ug7x7u53LgEtglOPBbomxzgNPv_PijMbxxCFYPIuwHjY1m-f6U5_yS4cGpbupvLT4Glg6Sk-xC89JtHg",
+        "screenshots": [
+            "https://play-lh.googleusercontent.com/jsuUZlH1WxqFrTmcGEDOZf_VSllz1Sc03D7NXs_pN2mRKw4p_CvUV6PzAOgHGaRwqWGP11o1KD8irW4C_b_y6g=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/4veIbOE4n45dMa8pIypR0T-yu1Xx99bPYGrZp8gxvOgPsgOcD788IARcjBTRH4wiakcLDkv9zACRYAQYlWGt=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/a4hpkTC2o4BIrqYXdDMW5MT0DvPU3G567b2hyYsrpVhte88FrVo56V5-N8-n_qPO9mPVPXq0f8MTV_nx4VpTnUs=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/yGuJnAMsBNWpwJTq5gEv-Gt_bSrQ7bMQvzIjXm0xDsPuK97Sbn7Fo2L2amxmASx97kjwBlFiL7EFw8uu4NLwS8M=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/K3CNeHy3LGxvpS5t-KZUysijFWuZmHyi73DWP8yIFu4OD7ZZFi1btq1cdWCoQUVdBKmYn_oI8mB92xh1CjOIIw=w720-h1280-rw",
+            "https://play-lh.googleusercontent.com/R2C4OKbLiNZpqe6cjfuCjppXSfJnQUCYhXoHE_9JqiH_ri9hK-htDESsOTvPWWBVnfZab_vv_E0-_ccV8Ad-Jg=w720-h1280-rw"
+        ],
+        "description": "",
+        "local_screenshots": [
+            "assets/screenshots/resthouse_user_ss1.png",
+            "assets/screenshots/resthouse_user_ss2.png",
+            "assets/screenshots/resthouse_user_ss3.png"
+        ],
+        "local_icon": "assets/icons/resthouse_user_icon.png"
+    }
+}

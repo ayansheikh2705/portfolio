@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ayan Sheikh - Professional Full-Stack Developer with 3+ years of experience specializing in high-performance Android & iOS mobile applications. Explore my portfolio of deployed Play Store apps.">
+    <meta name="keywords" content="Ayan Sheikh, Full Stack Developer, Flutter Developer, Android Developer, iOS Developer, Mobile App Developer, Portfolio, Vidyut Sakhi, MillatApp, Decyde.Shop">
+    <meta name="author" content="Ayan Sheikh">
+    <title>Ayan Sheikh | Full-Stack Mobile & Web Developer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicon Logo Icon -->
+    <link rel="icon" type="image/jpeg" href="assets/portfolio_avatar.jpg">
+</head>
+<body class="dark-theme">
+    
+    <!-- Custom Cursor Glow effect (handled in JS) -->
+    <div class="cursor-glow" id="cursor-glow"></div>
+
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="container navbar">
+           <a href="#" class="logo">
+    <img
+        src="assets/horizontal_logo.jpg"
+        alt="Ayan Sheikh Logo"
+        style="width: 200px; height: 70px; display: block;"
+    >
+</a>
+            
+            <nav class="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link nav-cta">Get in Touch</a>
+            </nav>
+            
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge-glow animate-fade-in">Ready to Build & Deploy</div>
+                    <h1 class="hero-title animate-slide-up clip-reveal">
+                        <span class="clip-reveal-child">Crafting High-Performance</span>
+                        <span class="clip-reveal-child"><span class="text-gradient">Mobile & Web</span> Solutions</span>
+                    </h1>
+                    <p class="hero-subtitle animate-slide-up-delayed scroll-light-up">
+                        I am Ayan Sheikh, a Full-Stack Developer with 3+ years of experience. I specialize in building cross-platform apps, integrating backend systems, and deploying apps to the Google Play Store and Apple App Store.
+                    </p>
+                    <div class="hero-ctas animate-slide-up-delayed">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View My Work</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Let's Collaborate</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="blob-glow"></div>
+                    <div class="hero-mockup-wrapper">
+                        <!-- Floating Device Mockups containing code or stats -->
+                        <div class="floating-card card-1">
+                            <i class="fa-solid fa-rocket icon-glow"></i>
+                            <div>
+                                <h4>6+ Deployed</h4>
+                                <p>Apps on Store</p>
+                            </div>
+                        </div>
+                        <div class="floating-card card-2">
+                            <i class="fa-solid fa-mobile-screen-button icon-glow-alt"></i>
+                            <div>
+                                <h4>Flutter & Dart</h4>
+                                <p>Native Performance</p>
+                            </div>
+                        </div>
+                        <div class="code-editor-mockup">
+                            <div class="editor-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                                <span class="editor-filename">ayan_sheikh.dart</span>
+                            </div>
+                            <div class="editor-body">
+                                <pre><code><span class="keyword">class</span> <span class="class-name">Developer</span> {
+  <span class="keyword">final</span> String name = <span class="string">'Ayan Sheikh'</span>;
+  <span class="keyword">final</span> int experience = <span class="number">3</span>; <span class="comment">// years+</span>
+  <span class="keyword">final</span> List&lt;String&gt; expertise = [
+    <span class="string">'Flutter'</span>, <span class="string">'Firebase'</span>, <span class="string">'NodeJS'</span>
+  ];
+  
+  <span class="keyword">void</span> buildSystem() {
+    print(<span class="string">'Designing robust UX/UI...'</span>);
+    print(<span class="string">'Writing clean codebase...'</span>);
+    print(<span class="string">'Deploying to Google & Apple App Stores...'</span>);
+  }
+}</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats-section">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h3 class="stat-number">3+</h3>
+                        <p class="stat-label">Years of Experience</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="stat-number">6+</h3>
+                        <p class="stat-label">Apps Deployed</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="stat-number">50k+</h3>
+                        <p class="stat-label">Combined Installs</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="stat-number">99%</h3>
+                        <p class="stat-label">Client Satisfaction</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag font-accent">My Journey</span>
+                    <h2 class="section-title clip-reveal"><span class="clip-reveal-child">Who is Ayan Sheikh?</span></h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h3 class="scroll-light-up">Full-Stack mobile engineer with a passion for building seamless customer experiences.</h3>
+                        <p class="scroll-light-up">
+                            Over the past 3 years, I have worked as a dedicated developer designing, implementing, and shipping consumer-centric mobile applications. My skill set spans across the entire product development lifecycle—from rapid prototyping and layout design to robust backend architecture integration and publishing store bundles.
+                        </p>
+                        <p class="scroll-light-up">
+                            I have built applications for government agencies (UPSRLM, Maharashtra PWD), digital communities (Ummat Group), and local commercial marketplaces (Decyde.Shop). I excel in optimizing app launch times, resolving production performance bottlenecks, and writing scalable codebase APIs.
+                        </p>
+                        <div class="about-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Location:</span>
+                                <span class="detail-value">India (Available for Remote Work)</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Email:</span>
+                                <span class="detail-value"><a href="mailto:ayan.sheikh2705@gmail.com">ayan.sheikh2705@gmail.com</a></span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Employment:</span>
+                                <span class="detail-value">Freelance / Full-time Roles</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-focus">
+                        <div class="focus-card">
+                            <i class="fa-solid fa-cubes-stacked focus-icon violet-glow"></i>
+                            <h4>Full-Stack Architecture</h4>
+                            <p>End-to-end deployment including mobile clients, cloud databases, state management (BLoC, Provider), and server endpoints.</p>
+                        </div>
+                        <div class="focus-card">
+                            <i class="fa-solid fa-store focus-icon cyan-glow"></i>
+                            <h4>App Store Operations</h4>
+                            <p>Comprehensive knowledge of Apple App Store and Google Play Console release flows, testing tracks, metadata optimization, and guideline compliance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag font-accent">Core Competency</span>
+                    <h2 class="section-title clip-reveal"><span class="clip-reveal-child">Technical Expertise</span></h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="skills-grid">
+                    <div class="skills-category">
+                        <div class="category-header">
+                            <i class="fa-solid fa-mobile-screen"></i>
+                            <h3>Mobile Frontend</h3>
+                        </div>
+                        <ul class="skills-list">
+                            <li><span>Flutter & Dart</span><span class="skill-level">95%</span></li>
+                            <li class="progress-bar"><div class="progress" style="width: 95%"></div></li>
+                            <li><span>React Native</span><span class="skill-level">75%</span></li>
+                            <li class="progress-bar"><div class="progress" style="width: 75%"></div></li>
+                            <li><span>Android SDK (Java/Kotlin)</span><span class="skill-level">80%</span></li>
+                            <li class="progress-bar"><div class="progress" style="width: 80%"></div></li>
+                            <li><span>UI/UX Custom Layouts</span><span class="skill-level">90%</span></li>
+                            <li class="progress-bar"><div class="progress" style="width: 90%"></div></li>
+                        </ul>
+                    </div>
+
+                    <div class="skills-category">
+                        <div class="category-header">
+                            <i class="fa-solid fa-server"></i>
+                            <h3>Backend & Databases</h3>
+                        </div>
+                        <ul class="skills-list">
+                            <li><span>Firebase & Firestore</span><span class="skill-level">90%</span></li>
+                            <li class="progress-bar"><div class="progress" style="width: 90%"></div></li>
+                            <li><span>Node.js / Express</span><span class="skill-level">80%</span></li>
+                            <li class="progress-bar"><div class="progress" style="width: 80%"></div></li>
+                            <li><span>RESTful APIs / JSON</span><span class="skill-level">95%</span></li>
+                            <li class="progress-bar"><div class="progress" style="width: 95%"></div></li>
+                            <li><span>SQL & MongoDB</span><span class="skill-level">75%</span></li>
+                            <li class="progress-bar"><div class="progress" style="width: 75%"></div></li>
+                        </ul>
+                    </div>
+
+                    <div class="skills-category">
+                        <div class="category-header">
+                            <i class="fa-solid fa-sliders"></i>
+                            <h3>Development & Tools</h3>
+                        </div>
+                        <ul class="skills-list">
+                            <li><span>Git & CI/CD Pipelines</span><span class="skill-level">90%</span></li>
+                            <li class="progress-bar"><div class="progress" style="width: 90%"></div></li>
+                            <li><span>Play Console & App Store Connect</span><span class="skill-level">95%</span></li>
+                            <li class="progress-bar"><div class="progress" style="width: 95%"></div></li>
+                            <li><span>State Management (BLoC/Provider)</span><span class="skill-level">90%</span></li>
+                            <li class="progress-bar"><div class="progress" style="width: 90%"></div></li>
+                            <li><span>Postman & API Testing</span><span class="skill-level">85%</span></li>
+                            <li class="progress-bar"><div class="progress" style="width: 85%"></div></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Showcase Section -->
+        <section id="projects" class="projects-section scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag font-accent">Portfolio</span>
+                    <h2 class="section-title clip-reveal"><span class="clip-reveal-child">Deployed App Store Work</span></h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <!-- Projects Navigation Filter -->
+                <div class="projects-filter">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="gov">Government</button>
+                    <button class="filter-btn" data-filter="lifestyle">Lifestyle</button>
+                    <button class="filter-btn" data-filter="commercial">Commercial</button>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="projects-grid">
+                    
+                    <!-- App 1: Vidyut Sakhi (UPSRLM) -->
+                    <div class="project-card" data-category="gov">
+                        <div class="project-header">
+                            <img src="assets/icons/upsrlm_icon.png" alt="Vidyut Sakhi Icon" class="project-icon">
+                            <div class="project-title-area">
+                                <h3>Vidyut Sakhi</h3>
+                                <span class="project-client">UP State Rural Livelihood Mission</span>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <p>An official utility app designed for the Uttar Pradesh government program. Enables assigned village representatives ("Sakhis") to collect and log electricity bills in rural regions, search bills via Consumer IDs, record offline transactions, and update state servers securely.</p>
+                            <div class="tech-tags">
+                                <span>Flutter</span>
+                                <span>Gov Integration</span>
+                                <span>REST API</span>
+                                <span>Offline Sync</span>
+                            </div>
+                        </div>
+                        <div class="project-screenshots">
+                            <div class="screenshot-track">
+                                <img src="assets/screenshots/upsrlm_ss1.png" alt="Vidyut Sakhi Screenshot 1" class="screenshot-item">
+                                <img src="assets/screenshots/upsrlm_ss2.png" alt="Vidyut Sakhi Screenshot 2" class="screenshot-item">
+                                <img src="assets/screenshots/upsrlm_ss3.png" alt="Vidyut Sakhi Screenshot 3" class="screenshot-item">
+                            </div>
+                            <div class="screenshot-overlay">
+                                <button class="btn-view-screenshots" data-app="upsrlm">
+                                    <i class="fa-solid fa-expand"></i> View Screenshots
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://play.google.com/store/apps/details?id=com.avenues.upsrlm&hl=en_IN" target="_blank" class="store-btn google-play">
+                                <i class="fa-brands fa-google-play"></i>
+                                <div>
+                                    <span class="store-text-small">GET IT ON</span>
+                                    <span class="store-text-bold">Google Play</span>
+                                </div>
+                            </a>
+                            <span class="store-badge-apple">
+                                <i class="fa-brands fa-apple"></i> iOS Deployed
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- App 2: MillatApp -->
+                    <div class="project-card" data-category="lifestyle">
+                        <div class="project-header">
+                            <img src="assets/icons/millat_icon.png" alt="MillatApp Icon" class="project-icon">
+                            <div class="project-title-area">
+                                <h3>MillatApp</h3>
+                                <span class="project-client">Ummat Group</span>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <p>A privacy-focused daily companion and utility application for the Muslim community. It provides accurate geotargeted prayer timers, a high-precision Qibla direction compass, a digital Islamic Hijri calendar, educational feeds, and community update boards.</p>
+                            <div class="tech-tags">
+                                <span>Flutter</span>
+                                <span>Geolocator</span>
+                                <span>Firebase Cloud</span>
+                                <span>Local Notifications</span>
+                            </div>
+                        </div>
+                        <div class="project-screenshots">
+                            <div class="screenshot-track">
+                                <img src="assets/screenshots/millat_ss1.png" alt="MillatApp Screenshot 1" class="screenshot-item">
+                                <img src="assets/screenshots/millat_ss2.png" alt="MillatApp Screenshot 2" class="screenshot-item">
+                                <img src="assets/screenshots/millat_ss3.png" alt="MillatApp Screenshot 3" class="screenshot-item">
+                            </div>
+                            <div class="screenshot-overlay">
+                                <button class="btn-view-screenshots" data-app="millat">
+                                    <i class="fa-solid fa-expand"></i> View Screenshots
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://play.google.com/store/apps/details?id=com.ummat.millatapp&hl=en_IN" target="_blank" class="store-btn google-play">
+                                <i class="fa-brands fa-google-play"></i>
+                                <div>
+                                    <span class="store-text-small">GET IT ON</span>
+                                    <span class="store-text-bold">Google Play</span>
+                                </div>
+                            </a>
+                            <span class="store-badge-apple">
+                                <i class="fa-brands fa-apple"></i> iOS Deployed
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- App 3: Decyde.Shop -->
+                    <div class="project-card" data-category="commercial">
+                        <div class="project-header">
+                            <img src="assets/icons/decyde_shop_icon.png" alt="Decyde.Shop Icon" class="project-icon">
+                            <div class="project-title-area">
+                                <h3>Decyde.Shop</h3>
+                                <span class="project-client">Virtual Globe Technology</span>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <p>A smart consumer discount client app connecting local shoppers with physical stores. Customers explore available discount codes, download verified vendor coupons, chat in real-time with shop owners about sizes/colors, and redeem offers offline in physical locations.</p>
+                            <div class="tech-tags">
+                                <span>Flutter</span>
+                                <span>OAuth Authentication</span>
+                                <span>Realtime Chat</span>
+                                <span>Coupons</span>
+                            </div>
+                        </div>
+                        <div class="project-screenshots">
+                            <div class="screenshot-track">
+                                <img src="assets/screenshots/decyde_shop_ss1.png" alt="Decyde.Shop Screenshot 1" class="screenshot-item">
+                                <img src="assets/screenshots/decyde_shop_ss2.png" alt="Decyde.Shop Screenshot 2" class="screenshot-item">
+                                <img src="assets/screenshots/decyde_shop_ss3.png" alt="Decyde.Shop Screenshot 3" class="screenshot-item">
+                            </div>
+                            <div class="screenshot-overlay">
+                                <button class="btn-view-screenshots" data-app="decyde_shop">
+                                    <i class="fa-solid fa-expand"></i> View Screenshots
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://play.google.com/store/apps/details?id=com.VGT.decyde.shop&hl=en_IN" target="_blank" class="store-btn google-play">
+                                <i class="fa-brands fa-google-play"></i>
+                                <div>
+                                    <span class="store-text-small">GET IT ON</span>
+                                    <span class="store-text-bold">Google Play</span>
+                                </div>
+                            </a>
+                            <span class="store-badge-apple">
+                                <i class="fa-brands fa-apple"></i> iOS Deployed
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- App 4: Decyde.Shop Seller -->
+                    <div class="project-card" data-category="commercial">
+                        <div class="project-header">
+                            <img src="assets/icons/decyde_vendor_icon.png" alt="Decyde Seller Icon" class="project-icon">
+                            <div class="project-title-area">
+                                <h3>Decyde Seller</h3>
+                                <span class="project-client">Virtual Globe Technology</span>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <p>The companion business console for storefronts, exhibitors, and vendor outlets on the Decyde network. Enables store owners to create promotional banners, publish active discount programs, catalog store listings, and manage chat pipelines with local customers.</p>
+                            <div class="tech-tags">
+                                <span>Flutter</span>
+                                <span>Inventory Mgmt</span>
+                                <span>WebSocket Chat</span>
+                                <span>Firebase Push</span>
+                            </div>
+                        </div>
+                        <div class="project-screenshots">
+                            <div class="screenshot-track">
+                                <img src="assets/screenshots/decyde_vendor_ss1.png" alt="Decyde Seller Screenshot 1" class="screenshot-item">
+                                <img src="assets/screenshots/decyde_vendor_ss2.png" alt="Decyde Seller Screenshot 2" class="screenshot-item">
+                                <img src="assets/screenshots/decyde_vendor_ss3.png" alt="Decyde Seller Screenshot 3" class="screenshot-item">
+                            </div>
+                            <div class="screenshot-overlay">
+                                <button class="btn-view-screenshots" data-app="decyde_vendor">
+                                    <i class="fa-solid fa-expand"></i> View Screenshots
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://play.google.com/store/apps/details?id=com.VGT.decyde.vendor&hl=en_IN" target="_blank" class="store-btn google-play">
+                                <i class="fa-brands fa-google-play"></i>
+                                <div>
+                                    <span class="store-text-small">GET IT ON</span>
+                                    <span class="store-text-bold">Google Play</span>
+                                </div>
+                            </a>
+                            <span class="store-badge-apple">
+                                <i class="fa-brands fa-apple"></i> iOS Deployed
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- App 5: Maha PWD Resthouse Allottee -->
+                    <div class="project-card" data-category="gov">
+                        <div class="project-header">
+                            <img src="assets/icons/resthouse_allottee_icon.png" alt="Maha PWD Allottee Icon" class="project-icon">
+                            <div class="project-title-area">
+                                <h3>Maha PWD Allottee</h3>
+                                <span class="project-client">Maharashtra Public Works Dept</span>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <p>Administrative utility app built for government officers responsible for rest house allocations in Maharashtra. Provides internal logins to verify user identities, track check-ins and room vacancies, approve booking vouchers, and sync records with the central eMahaPWD database.</p>
+                            <div class="tech-tags">
+                                <span>Flutter</span>
+                                <span>Security / Auth</span>
+                                <span>Admin Panel</span>
+                                <span>JSON Sync</span>
+                            </div>
+                        </div>
+                        <div class="project-screenshots">
+                            <div class="screenshot-track">
+                                <img src="assets/screenshots/resthouse_allottee_ss1.png" alt="Maha PWD Allottee Screenshot 1" class="screenshot-item">
+                                <img src="assets/screenshots/resthouse_allottee_ss2.png" alt="Maha PWD Allottee Screenshot 2" class="screenshot-item">
+                                <img src="assets/screenshots/resthouse_allottee_ss3.png" alt="Maha PWD Allottee Screenshot 3" class="screenshot-item">
+                            </div>
+                            <div class="screenshot-overlay">
+                                <button class="btn-view-screenshots" data-app="resthouse_allottee">
+                                    <i class="fa-solid fa-expand"></i> View Screenshots
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://play.google.com/store/apps/details?id=com.emahapwd.resthouse_allottee&hl=en_IN" target="_blank" class="store-btn google-play">
+                                <i class="fa-brands fa-google-play"></i>
+                                <div>
+                                    <span class="store-text-small">GET IT ON</span>
+                                    <span class="store-text-bold">Google Play</span>
+                                </div>
+                            </a>
+                            <span class="store-badge-apple">
+                                <i class="fa-brands fa-apple"></i> iOS Deployed
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- App 6: Maha PWD Resthouse (User) -->
+                    <div class="project-card" data-category="gov">
+                        <div class="project-header">
+                            <img src="assets/icons/resthouse_user_icon.png" alt="Maha PWD Resthouse Icon" class="project-icon">
+                            <div class="project-title-area">
+                                <h3>Maha PWD Resthouse</h3>
+                                <span class="project-client">Maharashtra Public Works Dept</span>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <p>The consumer booking client built for government staff and eligible citizens. Features an interactive list of government circuit houses and rest rooms in Maharashtra, real-time vacancy checkers, mobile booking requests, receipt downloads, and online payment validation.</p>
+                            <div class="tech-tags">
+                                <span>Flutter</span>
+                                <span>Payment Gateway</span>
+                                <span>Booking System</span>
+                                <span>PDF Generator</span>
+                            </div>
+                        </div>
+                        <div class="project-screenshots">
+                            <div class="screenshot-track">
+                                <img src="assets/screenshots/resthouse_user_ss1.png" alt="Maha PWD Resthouse Screenshot 1" class="screenshot-item">
+                                <img src="assets/screenshots/resthouse_user_ss2.png" alt="Maha PWD Resthouse Screenshot 2" class="screenshot-item">
+                                <img src="assets/screenshots/resthouse_user_ss3.png" alt="Maha PWD Resthouse Screenshot 3" class="screenshot-item">
+                            </div>
+                            <div class="screenshot-overlay">
+                                <button class="btn-view-screenshots" data-app="resthouse_user">
+                                    <i class="fa-solid fa-expand"></i> View Screenshots
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://play.google.com/store/apps/details?id=com.emahapwd.resthouse_user&hl=en_IN" target="_blank" class="store-btn google-play">
+                                <i class="fa-brands fa-google-play"></i>
+                                <div>
+                                    <span class="store-text-small">GET IT ON</span>
+                                    <span class="store-text-bold">Google Play</span>
+                                </div>
+                            </a>
+                            <span class="store-badge-apple">
+                                <i class="fa-brands fa-apple"></i> iOS Deployed
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Timeline Section -->
+        <section id="experience" class="experience-section scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag font-accent">History</span>
+                    <h2 class="section-title clip-reveal"><span class="clip-reveal-child">Professional Experience</span></h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="timeline">
+                    <!-- Timeline item 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2024 - Present</div>
+                        <div class="timeline-content">
+                            <h3>Lead App Developer</h3>
+                            <span class="timeline-company">Virtual Globe Technology (VGT)</span>
+                            <p>Architected and launched commercial ecosystems, including the Decyde.Shop client and Decyde.Shop Seller platforms. Handled design sprints, end-to-end local databases, real-time message syncing via web protocols, and deployed app builds to production.</p>
+                        </div>
+                    </div>
+
+                    <!-- Timeline item 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2023 - 2024</div>
+                        <div class="timeline-content">
+                            <h3>Full-Stack Application Consultant</h3>
+                            <span class="timeline-company">Independent Contracting (Gov / NGO Sectors)</span>
+                            <p>Engaged in system development for key administration modules. Designed the Maha PWD Resthouse Allottee application and the Maha PWD Resthouse public app. Coordinated security audits, internal authorization keys, and centralized REST API integrations with municipal servers.</p>
+                        </div>
+                    </div>
+
+                    <!-- Timeline item 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2022 - 2023</div>
+                        <div class="timeline-content">
+                            <h3>Mobile Developer</h3>
+                            <span class="timeline-company">AvenuesAI Limited & Partner Entities</span>
+                            <p>Built utility programs for rural development initiatives, leading to the creation of the Vidyut Sakhi mobile app under the UP State Rural Livelihood Mission. Developed and published the MillatApp for Islamic community lifestyle management, maintaining zero privacy compromises.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services-section scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag font-accent">What I Do</span>
+                    <h2 class="section-title clip-reveal"><span class="clip-reveal-child">Specialized Services</span></h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+                        <h3>Mobile App Development</h3>
+                        <p>High-end cross-platform Android and iOS solutions utilizing Flutter, with optimized page layouts and responsive native animations.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-network-wired"></i></div>
+                        <h3>Backend Integration</h3>
+                        <p>Integrating cloud servers, designing Firestore architectures, managing real-time chat gateways, and building robust RESTful APIs.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+                        <h3>Deployment & Console Mgmt</h3>
+                        <p>Resolving publishing review rejects, handling production rollouts, optimizing Store metadata, and setting up testing environments.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag font-accent">Connect</span>
+                    <h2 class="section-title clip-reveal"><span class="clip-reveal-child">Start a Project</span></h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Let's build something extraordinary together.</h3>
+                        <p>Are you looking to take a business concept to life, implement a high-performance utility client, or deploy secure systems to production? Send me a line and let's coordinate.</p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method-item">
+                                <div class="method-icon"><i class="fa-regular fa-envelope"></i></div>
+                                <div>
+                                    <h4>Email Me</h4>
+                                    <p class="email-copy-wrapper">
+                                        <span id="dev-email">ayan.sheikh2705@gmail.com</span>
+                                        <button class="btn-copy" id="btn-copy-email" title="Copy to clipboard">
+                                            <i class="fa-regular fa-copy"></i>
+                                        </button>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="contact-method-item">
+                                <div class="method-icon"><i class="fa-solid fa-phone"></i></div>
+                                <div>
+                                    <h4>Phone Number</h4>
+                                    <p><a href="tel:+918788617867">+91 87886 17867</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper">
+                        <form action="mailto:ayan.sheikh2705@gmail.com" method="GET" class="contact-form" enctype="text/plain">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="subject" placeholder="Your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="body">Message</label>
+                                <textarea id="body" name="body" rows="5" placeholder="Outline your project goals..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <span>Send Email</span>
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container footer-container">
+            <p>&copy; 2026 Ayan Sheikh. All rights reserved. Deployed with passion.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/ayansheikh2705" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:ayan.sheikh2705@gmail.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Lightbox Modal -->
+    <div class="lightbox-modal" id="lightbox-modal" aria-hidden="true" role="dialog">
+        <button class="lightbox-close" id="lightbox-close" aria-label="Close lightbox">&times;</button>
+        <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Previous screenshot">&#10094;</button>
+        <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Next screenshot">&#10095;</button>
+        <div class="lightbox-content">
+            <img src="" alt="Full Screen Screenshot Preview" id="lightbox-image">
+            <div class="lightbox-caption" id="lightbox-caption">App Screenshot</div>
+        </div>
+    </div>
+
+    <!-- Custom Script File -->
+    <script src="app.js"></script>
+</body>
+</html>
